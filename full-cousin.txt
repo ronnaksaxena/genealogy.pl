@@ -1,0 +1,130 @@
+Script started on 2018-01-31 05:48:14-0500
+
+$ swipl -s rules.pl persondb.pl
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.4.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- cousin(aubrey2, Who, Common, Len1, Len2).
+Who = Common, Common = aubrey2,
+Len1 = Len2, Len2 = 0 ;
+Who = Common, Common = lynnette,
+Len1 = 2,
+Len2 = 0 ;
+Who = anne1,
+Common = lynnette,
+Len1 = 2,
+Len2 = 1 ;
+Who = katie,
+Common = lynnette,
+Len1 = 2,
+Len2 = 1 ;
+Who = grayson,
+Common = lynnette,
+Len1 = Len2, Len2 = 2 ;
+Who = hayes,
+Common = lynnette,
+Len1 = Len2, Len2 = 2 ;
+Who = Common, Common = sidney,
+Len1 = 3,
+Len2 = 0 ;
+Who = Common, Common = clastel1,
+Len1 = 3,
+Len2 = 0 ;
+Who = sara,
+Common = clastel1,
+Len1 = 3,
+Len2 = 1 ;
+Who = david,
+Common = clastel1,
+Len1 = 3,
+Len2 = 2 ;
+Who = elizabeth,
+Common = clastel1,
+Len1 = 3,
+Len2 = 2 ;
+Who = clastel2,
+Common = clastel1,
+Len1 = Len2, Len2 = 3 ;
+Who = Common, Common = col,
+Len1 = 1,
+Len2 = 0 ;
+Who = evelyn2,
+Common = col,
+Len1 = Len2, Len2 = 1 ;
+Who = Common, Common = wini,
+Len1 = 2,
+Len2 = 0 ;
+Who = tim,
+Common = wini,
+Len1 = 2,
+Len2 = 1 ;
+Who = tom,
+Common = wini,
+Len1 = 2,
+Len2 = 1 ;
+Who = Common, Common = bill1,
+Len1 = 2,
+Len2 = 0 ;
+Who = anne1,
+Common = bill1,
+Len1 = 2,
+Len2 = 1 ;
+Who = katie,
+Common = bill1,
+Len1 = 2,
+Len2 = 1 ;
+Who = grayson,
+Common = bill1,
+Len1 = Len2, Len2 = 2 ;
+Who = hayes,
+Common = bill1,
+Len1 = Len2, Len2 = 2 ;
+Who = Common, Common = joe,
+Len1 = 3,
+Len2 = 0 ;
+Who = Common, Common = aubrey1,
+Len1 = 3,
+Len2 = 0 ;
+Who = sara,
+Common = aubrey1,
+Len1 = 3,
+Len2 = 1 ;
+Who = david,
+Common = aubrey1,
+Len1 = 3,
+Len2 = 2 ;
+Who = elizabeth,
+Common = aubrey1,
+Len1 = 3,
+Len2 = 2 ;
+Who = clastel2,
+Common = aubrey1,
+Len1 = Len2, Len2 = 3 ;
+Who = Common, Common = al,
+Len1 = 1,
+Len2 = 0 ;
+Who = evelyn2,
+Common = al,
+Len1 = Len2, Len2 = 1 ;
+Who = Common, Common = bill2,
+Len1 = 2,
+Len2 = 0 ;
+Who = tim,
+Common = bill2,
+Len1 = 2,
+Len2 = 1 ;
+Who = tom,
+Common = bill2,
+Len1 = 2,
+Len2 = 1 ;
+false.
+
+?- 
+halt
+
+
+Script done on 2018-01-31 05:49:52-0500
